@@ -2,7 +2,7 @@
 class connection {
 	private $host = "localhost";
 	private $user = "unn_w17022892";
-	private $password = "nufc2010";
+	private $password = "********";
 	private $database = "unn_w17022892";
 	private $conn;
 	
