@@ -1,0 +1,384 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+  
+
+body
+{ font: normal .80em Arial, Helvetica, sans-serif;
+	background-image: url(../img/bg.png);
+  color: #555;}
+
+p
+{
+	padding: 0 0 0 0;
+	line-height: 3em;
+}
+
+img {
+border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1, h2, h3
+{ font: normal 170%  Arial, Helvetica, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;}
+
+h2
+{
+	font-size: 140%;
+	padding: 0px 0 0px 0;
+color:#000;
+}
+
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+h4, h6
+{ color: #000;
+  padding: 0 0 5px 0;
+  font: normal 110% Arial, Helvetica, sans-serif;
+  }
+
+h5, h6
+{ color: #888;
+  font: normal 95% Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;}
+
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #B48A7C;}
+
+a:hover
+{ text-decoration: none;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+   text-align: justify;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{
+	background: #000;
+	border-bottom: 1px solid #3d3d3d;
+	height: 100px;
+overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;	
+}
+  
+.slider {
+	width: 720px;
+	height: 400px;
+margin:auto;
+border-style: ridge;
+}
+
+#logo
+{
+	position: relative;
+	height: 100px;
+	background: #1d1d1d;
+	
+}
+
+#logo #logo_text 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 367px;
+}
+
+#logo h1, #logo h2
+{ font: normal 300% Arial, Helvetica, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0 0 0 9px;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #5E4238;}
+
+#logo_text a:hover .logo_colour
+{ color: #5E4238;}
+
+#logo_text h2
+{ font-size: 120%;
+  padding: 4px 0 0 0;
+  color: #B48A7C;}
+
+#menubar
+{
+	
+	height: 55px;
+	padding-right: 8px;
+	background: #2D2D2D;
+	border-top: 1px solid #3D3D3D;
+} 
+
+ul#menu
+{ float: right;
+position: absolute;
+right:    0;
+bottom:   0;
+  margin: 20px;
+  font-size:16px;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 8px 4px 0 4px;}
+
+ul#menu li a
+{
+	font: normal 100% times Arial, Helvetica, sans-serif;
+	display: block;
+	float: left;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	background: #C69;
+	border-radius: 8px;
+	padding-top: 6px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+} 
+
+ul#menu li.selected a
+{
+	height: 30px;
+	padding-top: 6px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 11px;
+}
+
+ul#menu li.selected
+{ margin: 8px 4px 0 13px;
+  background: #C69;
+  border-radius: 8px;}
+
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ background: #C69;
+  color: #FFF;}
+
+ul#menu li a:hover
+{ color: #CF0;}
+
+
+#site_content
+{
+	width: 1000px;
+	overflow: hidden;
+	margin-top: 110px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 16px;
+	padding-left: 0;
+} 
+ 
+
+#content
+{
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	margin: auto;
+	line-height: 1.6;
+}
+  
+#header1
+{  text-align: center;
+  width: 620px;
+  padding: 0 0 0 5px;
+  margin:auto;
+    line-height: 1.6;
+  }
+  
+
+  
+.button {
+    background-color: #CCC;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input.fullname {
+	width: 50%;
+	padding: 12px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+
+textarea.message {
+   width: 50%;
+  height: 150px;
+    padding: 70px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+	width: 1000px;
+	/* [disabled]margin: 0 auto; */
+}
+
+.box {
+	margin: 20px 100px 20px 100px; 
+	background: #FFF;
+	border-style: ridge;
+	
+	}
+	
+	.box h1 {
+		font-size:24px;
+	}
+	.box h7 {
+		font: normal 170%  Arial, Helvetica, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+ text-align: center;
+	}
+
+/* 2 columns in a row */
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col1{
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 50px; 
+	 background: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+
+.col2{
+    float: left;
+    width: 75%;
+    padding: 0px;
+    height: 400px; 
+	 background: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+
+  #site_content .box .map #content form h3 strong {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+  #site_content .box .map #header1 h3 u b {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:24px;
+}
+  #site_content .box .map #header1 p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  #site_content .box #content p u b {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  #site_content .box #header1 p h7 u b {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  #site_content .box #header1 h3 u b {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+  
+.button1 {
+	font-size: 16px;	
+	background-color: #F00;
+	border: none;
+	color: white;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	 margin: 4px 2px;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	 border-radius: 25px;
+}
