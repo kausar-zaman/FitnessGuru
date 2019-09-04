@@ -1,7 +1,7 @@
  <?php
 $servername = "localhost";
 $username = "unn_w17022892";
-$password = "nufc2010";
+$password = "********";
 
 
 try {
